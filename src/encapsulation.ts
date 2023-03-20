@@ -1,6 +1,6 @@
 
 class Encapsulate {
-    private name: string;
+    private name: string | undefined;
 
     
 

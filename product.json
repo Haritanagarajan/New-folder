@@ -1,0 +1,14 @@
+[
+    {
+        "name":"soap",
+        "price":300
+    },
+    {
+        "name":"biscut",
+        "price":500
+    },
+    {
+        "name":"bangles",
+        "price":800
+    }
+]

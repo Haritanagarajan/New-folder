@@ -7,16 +7,12 @@ class student1 implements sum{
     }
 }
 class student2 implements sum{
-    input1: any;
-    input2: any;
     mathametics(input1:number,input2:number){
        console.log("subtraction of two inputs is:"+(input1-input2))
     }
 }
 
 class student3 implements sum{
-    input1: any;
-    input2: any;
     mathametics(input1:number,input2:number){
        console.log("multiplication of two inputs is:"+(input1*input2))
     }
