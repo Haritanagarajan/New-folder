@@ -1,13 +1,14 @@
 "use strict";
 class account {
-    balance1() {
-        console.log("account type is savings ");
+    constructor(acc_num, acc_type) {
+        this.acc_num = acc_num;
+        this.acc_type = acc_type;
     }
-    balance2() {
-        console.log("account type is current ");
+    balance(acc_num, acc_type) {
+        console.log(`account number is ${acc_num} and account type is ${acc_type}`);
     }
 }
-let I1 = new account();
-I1.balance1();
-let I2 = new account();
-I2.balance2();
+let I1 = new account(100000, 'savings');
+I1.balance(10000, 'savings');
+//   let i2:current_account=new account(20000,'current');
+//   i2.balance(20000,'current');
