@@ -54,11 +54,13 @@ class loan extends customer {
 
 var obj=new loan("HARITA",21,"KOVAIPUDUR","6382830515",1234567890,"EDUCATIONAL LOAN",100000,"5 YEARS",150);
 
-console.log("ACCESS DETAILS \n");
+console.log("ACCESS DETAILS");
 console.log("********************************");
 obj.AccessDetails();
-console.log("DISPLAY DETAIILS \n");
+console.log("\n")
+console.log("DISPLAY DETAIILS");
 console.log("********************************");
+console.log("\n")
 obj.display();
 console.log("INTEREST CALCULATION");
 console.log("********************************");
